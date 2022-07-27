@@ -60,8 +60,7 @@ export default function Skill() {
             <div className="skill-bx reveal">
          <Col>
          <h2>About</h2>
-            <p>Hey! I am Nurul Hasan form kota Currently perusing Ungraguate degree from IIIT kota in Computer Science Engineering. I am a full-stack developer and also loking for software developer role. In this website I tried to showcase my professional life. feel free to contect me for any query.</p>
-
+            <p>Hey! I am Nurul Hasan form Kota currently enrolled in ungraduate course from IIIT kota in Computer Science Engineering. I am a full-stack developer and also looking for software developer role.I tried to showcase my professional skills in this website.feel free to contect me for any query.</p>
             </Col>
             <Col>
             <h2 className='reveal'>Eduacation</h2>

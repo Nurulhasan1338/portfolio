@@ -45,12 +45,12 @@ export default function Contact() {
       }
     }
   }
-  const position = [25.176322, 75.83972];
+  const position = [26.861381, 75.819356];
   return (
     <div className="contact-page">
       {window.addEventListener("scroll", reveal)}
         <div className="d-flex justify-content-around w-100 bbox">
-          
+
         <div className="text-zone reveal">
           <h1>Contact me</h1>
           <div className="cotact-form">
