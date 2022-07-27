@@ -29,7 +29,7 @@
  }
  @media screen and (max-width:600px) {
    .CarD{
-      width: 309px;
+      width: 100%;
    }
  }
 
