@@ -1,0 +1,12 @@
+.prolink{
+    padding: 3px 8px;
+    margin: -30px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.prolink:hover{
+    color:white;
+    background-color: black;
+}

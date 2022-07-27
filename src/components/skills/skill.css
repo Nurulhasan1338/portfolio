@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+/* .skill{
+   Display: flex;
+   text-align: center;
+   width: 70%;
+   
+} */
+ /* {
+   Dposition:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:40px;
+ } */
+
+  .CarD{
+    position:relative;
+    width: 220px;
+    height: 250px;
+    background: #161515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 0px;
+    
+ }
+ @media screen and (max-width:600px) {
+   .CarD{
+      width: 309px;
+   }
+ }
+
+  .CarD .percent{
+    position:relative;
+    width: 150px;
+    height: 150px;
+ }
+
+  .CarD .percent svg{
+    position: relative ;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+ }
+  .CarD .percent svg circle{
+    width: 100%;
+    height: 100%;
+    fill:transparent;
+    stroke: #181717;
+    stroke-width: 2;
+    transform: translate(5px,5px);
+ }
+  .CarD .percent svg circle:nth-child(2){
+    stroke:var(--clr);
+    stroke-dasharray:440;
+    stroke-dashoffset: calc(440 - (440 * var(--num))/100 );
+    animation: fadeIn 7s infinite ;
+    opacity: 0;
+   
+ }
+
+ .dot{
+    position:absolute;
+    inset: 5px;
+    z-index: 10;
+    transform: rotate(calc(3.6deg * var(--num)));
+    animation: rotateDot 7s infinite;
+ }
+
+ @keyframes rotateDot {
+    0%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(calc(3.6deg * var(--num)));
+    }
+    100%{
+        transform: rotate(calc(3.6deg * var(--num)));
+    }
+ }
+ .dot::before{
+    content: '';
+    position:absolute;
+    top:-5px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background:var(--clr);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--clr),0 0 30px var(--clr);
+ }
+
+ .num{
+    position: absolute;
+    inset:0;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeIn 7s infinite;
+    margin-top: 71px;
+    margin-left: 9px;
+ }
+ @keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    30%{
+      opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+ }
+
+ .num h2{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color:#fff;
+    font-weight: 700;
+    font-size: 2.5em;
+ }
+ .num h2 span{
+    font-weight: 300;
+    color: #fff;
+    font-size: 0.5em;
+ }
+
+ .num p{
+    font-weight:300;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.75);
+ }
+
+ .reveal{
+   position: relative;
+   transform: translateY(150px);
+   opacity: 0;
+   transition: 1s all ease;
+ }
+ 
+ .reveal.active{
+   transform: translateY(0);
+   opacity: 1;
+ }

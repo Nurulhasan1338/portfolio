@@ -1,0 +1,123 @@
+.layout{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    height: 75vh;
+    padding-bottom:30px;
+}
+.text-zone{
+    width: 40%;
+  
+   margin-left: 20px;
+
+}
+.bbox{
+    flex-direction: row;
+}
+.mymap{
+    width: 60%;
+    margin-left: 40px;
+
+}
+.cotact-form{
+    width: 100%;
+     margin-top: 30px;
+}
+.contact-page{
+    border-radius: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 60px;
+    margin-left: 20px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    opacity: 1;
+    clear:both; 
+}
+li.half{
+    width:50%;
+    
+    float: left;
+    clear: none;
+}
+
+
+input[type='text'],
+input[type='email']{
+    width: 100%;
+    border:0;
+    background:rgb(2, 61, 100);
+    height: 50px;
+    font-size: 16px;
+    color:#fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+input[type="email"]{
+    float: right;
+    margin-left: 2%;
+    width: 96%;
+}
+textarea{
+    width: 100%;
+    border: 0;
+    background: rgb(4, 60, 100);
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+     min-height: 150px;
+     box-sizing: border-box;
+
+}
+.flat-button{
+    color: #086e96;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #0284a8;
+    float: left;
+    border-radius: 4px;
+    background: linear-gradient(#c300ff00,#6f00ff00);
+    transition: 1s;
+    
+}
+
+.flat-button:hover{
+     background: #0284a8;
+     color: white;
+}
+.leaflet-container {
+  height:100%;
+    width: 100%;
+  }
+
+  @media screen and (max-width:600px) {
+    .text-zone{
+        width: 93%;
+        margin:5px;
+    }
+    .mymap{
+        width: 100%;
+        height: 11rem;
+        margin-left: 0px;
+    }
+    .bbox{
+        flex-direction: column;
+    }
+
+  }
