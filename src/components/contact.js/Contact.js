@@ -50,8 +50,7 @@ export default function Contact() {
     <div className="contact-page">
       {window.addEventListener("scroll", reveal)}
         <div className="d-flex justify-content-around w-100 bbox">
-
-        
+          
         <div className="text-zone reveal">
           <h1>Contact me</h1>
           <div className="cotact-form">
