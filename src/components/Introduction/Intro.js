@@ -48,7 +48,7 @@ export default function Intro() {
             <Col xs={12} md={6} xl={7}>
                 <h1 className='txt-rotate'>{`Hii I'm`}<span className='wrap'> <br />{text}<span c></span></span></h1>
                 <p className='fs-5'>&#128526; My goal is to achieve excellence<br /></p>
-               <button className='downlode'> <a href={cv} download >Downlode CV</a></button>
+               <button className='downlode'> <a href={cv} download >Download CV</a></button>
             </Col>
         </Row>
         </Container>
