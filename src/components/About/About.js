@@ -9,27 +9,27 @@ import colorSharp2 from "../../assets/img/color-sharp2.png"
 
 export default function Skill() {
     const edu=[
-        {
+      {
+          title:"Annapurna public School",
+          address:"Kota Rajasthan",
+          done: "Secondary Education",
+          status:"82.8%",
+      
+          img:anna
+      },
+       {
             title:"Shiv Jyoti convent school",
             address:"Kota Rajasthan",
-            done: "Secniour Secondary Education",
+            done: "Senior Secondary Education",
             status:"75.8%",
-            Passout:2019,
+         
             img:shivjoti
-        },
-        {
-            title:"Annapurna public School",
-            address:"Kota Rajasthan",
-            done: "Secondary Education",
-            status:"82.8%",
-            Passout:2016,
-            img:anna
-        },
+       },
         {
             title:"IIIT Kota",
             address:" ",
-            done: "Btech in Computer Sciennce Engineering",
-            Passout:2024,
+            done: "Btech in Computer Science Engineering",
+          
             status:"CGPA - 7.11",
             img:iiit
         },   
@@ -72,7 +72,7 @@ export default function Skill() {
                         <img src={element.img} alt="" />
                     <h6>{element.title}</h6>
                     <span>{element.address}</span> <span>{element.done}</span> <br />
-                    <span>{element.status}</span> <br /> <span>passout : {element.Passout}</span>
+                    <span>{element.status}</span> <br /> 
                      </div>
                 </div>
                 )
