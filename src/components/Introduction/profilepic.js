@@ -1,6 +1,6 @@
 import React from 'react'
 import "./intro.css"
-import Mypic from "../../assets/img/mypic.jpg";
+import Mypic from "../../assets/img/mypic.jpeg";
 export default function profilepic() {
   return (
     <div className="outerBox">
