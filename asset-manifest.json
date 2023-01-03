@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.55338204.css",
-    "main.js": "/portfolio/static/js/main.9c5dbb57.js",
+    "main.js": "/portfolio/static/js/main.bba9ad8c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/color-sharp (1).png": "/portfolio/static/media/color-sharp (1).bea361cfef80fefc2d1e.png",
     "static/media/img3 (2).png": "/portfolio/static/media/img3 (2).01537842ea38a408d382.png",
     "static/media/color-sharp2.png": "/portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
-    "static/media/mypic.jpg": "/portfolio/static/media/mypic.b6b9f8049be99fa68f14.jpg",
     "static/media/banner-bg.png": "/portfolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/Nurul_Hasan.pdf": "/portfolio/static/media/Nurul_Hasan.2434a60d60f849cd3666.pdf",
     "static/media/iitlogo.png": "/portfolio/static/media/iitlogo.ae25d432e602a3fa05d7.png",
@@ -15,6 +14,7 @@
     "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book (1).ttf": "/portfolio/static/media/CentraNo2-Book (1).2b143fa4b734a3584043.ttf",
     "static/media/allahLogo.jpg": "/portfolio/static/media/allahLogo.921e5856e579ef7fa096.jpg",
+    "static/media/mypic.jpeg": "/portfolio/static/media/mypic.e3a432828617c498255e.jpeg",
     "static/media/news.jpeg": "/portfolio/static/media/news.4e6d603a2d04221ccd02.jpeg",
     "static/media/textLab (2).png": "/portfolio/static/media/textLab (2).dfdff775d0a3cfaad332.png",
     "static/media/annapurna.png": "/portfolio/static/media/annapurna.63d47030422418333c73.png",
@@ -24,11 +24,11 @@
     "static/media/hacker.svg": "/portfolio/static/media/hacker.5f117b4db2098b2cdbaf77fc86f851b2.svg",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.55338204.css.map": "/portfolio/static/css/main.55338204.css.map",
-    "main.9c5dbb57.js.map": "/portfolio/static/js/main.9c5dbb57.js.map",
+    "main.bba9ad8c.js.map": "/portfolio/static/js/main.bba9ad8c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55338204.css",
-    "static/js/main.9c5dbb57.js"
+    "static/js/main.bba9ad8c.js"
   ]
 }
