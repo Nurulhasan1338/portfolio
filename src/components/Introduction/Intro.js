@@ -6,7 +6,7 @@ import cv from "../../assets/Nurul_Hasan.pdf";
 export default function Intro() {
     const [loopNum,setLoopNum] =useState(0);
     const [isdelete,setIsdelete] = useState(false);
-    const toRotate = ["Nurul Hasan","React developer","Php developer"];
+    const toRotate = ["Nurul Hasan","MERN stack developer","software Engineer"];
     const [text,SetText]=useState('');
     const [delta,setDelta]=useState(300 - Math.random()*100);
     const period=2000;
@@ -48,7 +48,7 @@ export default function Intro() {
             <Col xs={12} md={6} xl={7}>
                 <h1 className='txt-rotate'>{`Hii I'm`}<span className='wrap'> <br />{text}<span c></span></span></h1>
                 <p className='fs-5'>&#128526; My goal is to achieve excellence<br /></p>
-               <button className='downlode'> <a href={cv} download >Download CV</a></button>
+               <button className='downlode'> <a href={cv} download >Download resume</a></button>
             </Col>
         </Row>
         </Container>

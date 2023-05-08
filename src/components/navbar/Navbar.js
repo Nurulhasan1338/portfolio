@@ -53,7 +53,7 @@ const change=()=>{
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink==='home' ?'active navbar-link':'navbar-link'} onClick={() => onUpdate('home')} >Home</Nav.Link>
-            <Nav.Link href="#scrollspyHeading1" className={activeLink==='about' ?'active navbar-link':'navbar-link'} onClick={() => onUpdate('about')} >about</Nav.Link>
+            <Nav.Link href="#scrollspyHeading1" className={activeLink==='about' ?'active navbar-link':'navbar-link'} onClick={() => onUpdate('about')} >About</Nav.Link>
             <Nav.Link href="#scrollspyHeading2" className={activeLink==='Project' ?'active navbar-link':'navbar-link'} onClick={() => onUpdate('Project')} >Projects</Nav.Link>
             <Nav.Link href="#scrollspyHeading3" className={activeLink==='skill' ?'active navbar-link':'navbar-link'} onClick={() => onUpdate('skill')} >Skill</Nav.Link>
           </Nav>
