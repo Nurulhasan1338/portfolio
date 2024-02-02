@@ -32,7 +32,7 @@ export default function Skill() {
       address: " Kota Rajasthan",
       done: "Btech in Computer Science Engineering",
 
-      status: "CGPA - 7.27",
+      status: "CGPA - 7.33",
       img: iiit,
     },
   ];

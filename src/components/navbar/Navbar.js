@@ -59,15 +59,15 @@ const change=()=>{
           </Nav>
           <span className='navbar-text'>
             <div className="social-icon">
-                <a href="https://www.linkedin.com/in/nurul-hasan-173550204/"><img src={navIcon1} target="_blank" rel="noopener noreferrer" alt="ico" /></a>
-                <a href="https://leetcode.com/Nurul_hasan/"><img src={navIcon5 } alt="ico" target="_blank" rel="noopener noreferrer"/></a>
-                <a href="https://www.hackerrank.com/Nuruhasan62"><img src={navIcon3} target="_blank" rel="noopener noreferrer" alt="ico" /></a>
-                <a href="https://github.com/Nurulhasan1338"><img src={navIcon4} target="_blank" rel="noopener noreferrer" alt="ico" /></a>
+                <a href="https://www.linkedin.com/in/nurul-hasan-173550204/" target='blank' ><img src={navIcon1} target="_blank" rel="noopener noreferrer" alt="ico" /></a>
+                <a href="https://leetcode.com/Nurul_hasan/" target='blank'><img src={navIcon5 } alt="ico" target="_blank" rel="noopener noreferrer"/></a>
+                <a href="https://www.hackerrank.com/Nuruhasan62" target='blank'><img src={navIcon3} target="_blank" rel="noopener noreferrer" alt="ico" /></a>
+                <a href="https://github.com/Nurulhasan1338" target='blank'><img src={navIcon4} target="_blank" rel="noopener noreferrer" alt="ico" /></a>
             </div>
-            <button className='vvd' onClick={()=>{window.location.href="#scrollspyHeading4"}}><span> Contact me! </span></button>
+            <button className='vvd' onClick={()=>{window.location.href="https://wa.me/+918690301338"}}><span> Contact me! </span></button>
           </span>
         </Navbar.Collapse>
-      </Container>
+      </Container>d
     </Navbar>
   );
 }
